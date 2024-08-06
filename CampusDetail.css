@@ -1,0 +1,76 @@
+.campus-detail-container {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace; /* Typewriter font */
+  background-color: rgb(133, 49, 26); /* Matching background color */
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.campus-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(133, 49, 26); /* Match background color */
+  position: relative;
+}
+
+.campus-logo {
+  height: 50px;
+}
+
+.campus-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between boxes */
+  padding: 20px;
+}
+
+.info-box {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  width: 200px; /* Fixed size for boxes */
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  border: 3px solid black; /* Black border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.info-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure image covers the box */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Send image to background */
+}
+
+.info-box:hover {
+  background-color: #f4f4f4; /* Light background on hover */
+  color: rgb(133, 49, 26); /* Change text color on hover */
+}
+
+.campus-footer {
+  padding: 10px;
+  background-color: rgb(133, 49, 26); /* Match background color */
+  color: white;
+  text-align: center;
+}

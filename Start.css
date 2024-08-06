@@ -1,0 +1,149 @@
+/* Start.css */
+.start-container {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; /* Typewriter font */
+    background-color: rgb(133, 49, 26); /* Updated background color */
+    color: white;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(133, 49, 26); /* Match background color */
+    position: relative;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .header-text {
+    text-align: center;
+    max-width: 80%;
+    margin: 20px auto;
+  }
+  
+  .header-text h1 {
+    margin: 0;
+    font-size: 1.8em; /* Adjusted size */
+    color: white;
+    font-weight: bold; /* Bold text */
+  }
+  
+  .header-text p {
+    margin: 10px 0;
+    font-size: 1em; /* Adjusted size */
+  }
+  
+  .profile-button {
+    background-color: #fff;
+    color: rgb(133, 49, 26);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Reduced margin */
+    max-width: 80%;
+    padding: 20px 0; /* Added padding to adjust vertical positioning */
+  }
+  
+  .carousel-button {
+    background-color: rgb(133, 49, 26);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 0; /* Removed circular background */
+  }
+  
+  .carousel-button.left {
+    left: -40px;
+  }
+  
+  .carousel-button.right {
+    right: -40px;
+  }
+  
+  .carousel-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-container {
+    position: relative;
+    border: 5px solid black; /* Black border around the image */
+  }
+  
+  .campus-image {
+    width: 600px; /* Fixed width for landscape images */
+    height: 300px; /* Fixed height for landscape images */
+    object-fit: cover;
+  }
+  
+  .campus-name {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.2em;
+  }
+  
+  .campus-info {
+    margin-top: 10px; /* Reduced margin */
+    text-align: center;
+  }
+  
+  .campus-button {
+    background-color: #fff;
+    color: rgb(133, 49, 26);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .campus-button:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .footer {
+    padding: 10px;
+    background-color: rgb(133, 49, 26); /* Match background color */
+    color: white;
+    text-align: center;
+  }
+  
